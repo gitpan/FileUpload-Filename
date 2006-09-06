@@ -3,7 +3,7 @@ author: 'Florian Merges <fmerges@cpan.org>'
 build_requires:
   Test::More: 0
 distribution_type: module
-generated_by: Module::Install version 0.61
+generated_by: Module::Install version 0.63
 license: perl
 name: FileUpload-Filename
 no_index:
@@ -15,4 +15,4 @@ requires:
   File::Basename: 2.73
   HTTP::BrowserDetect: 0.98
   List::Util: 1.18
-version: 0.01
+version: 0.02

@@ -16,7 +16,7 @@ BEGIN {
     }
 };
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 my $BROWSER_TO_BASENAME = {
@@ -128,7 +128,7 @@ This happens if the L<HTTP::BrowserDetect> fails to identify the users OS.
 
 =head1 NOTES
 
-=head2 Turn off warning messages
+=head2 VERBOSE - Turn off warning messages
 
 Just put the following before calling this module.
 
@@ -139,7 +139,7 @@ Example:
  sub FileUpload::Filename::VERBOSE { 0 };
  use FileUpload::Filename;
 
-=head2 Turn on debugging messages
+=head2 DEBUG - Turn on debugging messages
 
 Just put the following before calling this module.
 
